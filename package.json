@@ -1,0 +1,24 @@
+{
+  "name": "green-kart-ui-automation-using-genai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress"
+     
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aanchal-av/green-kart-ui-automation-using-GenAI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aanchal-av/green-kart-ui-automation-using-GenAI/issues"
+  },
+  "homepage": "https://github.com/aanchal-av/green-kart-ui-automation-using-GenAI#readme",
+  "dependencies": {
+    "cypress": "^14.0.3"
+  }
+}
