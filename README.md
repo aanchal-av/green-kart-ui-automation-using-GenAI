@@ -19,12 +19,19 @@ This project enables UI automation for the Green Kart application using Cypress 
 4. Click on **"Create a new recording"**.
 5. Click **"Start recording"** and perform the entire end-to-end (E2E) flow.
 6. Stop the recording and download the file as a `.json` file.
+7. refer this screen recording for better understanding 
+
+https://github.com/user-attachments/assets/c0dddd99-0dd6-4935-a75d-99ca9b28b73c
+
+
 
 ### 2. Generate Cypress Test Script
 1. Run the following command to convert the recorded JSON file into a Cypress test script:
    ```sh
    npx @cypress/chrome-recorder "C:\Users\Desktop\{filename}.json" --dry
    ```
+   ![Screenshot 2025-02-24 163923](https://github.com/user-attachments/assets/d1075949-09e1-484d-80e6-810e584645d9)
+
 2. Create a new Cypress spec file (e.g., `test.spec.js`).
 3. Copy and paste the generated script into the spec file.
 
